@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+	border-color: #808080;
+	border-style:groove;
+	border-width: 10px;
+	background-color:#c0c0c0;
+	font-size:40px;
+}
+
+h3 {
+	text-align: center;
+	text-decoration:underline;
+	font-size:25px;
+	color: brown;
+}
+
+h4 {
+	text-align: center;
+	text-decoration:underline;
+	font-size:15px;
+	color: brown;
+}
+
+li {
+	text-align: center;
+	font-size:15px;
+}
+
+p {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+#form:hover {
+	color:#0000ff;
+}
+		
+#paginainicial:hover {
+	font-size:25px;
+	color:#0000ff;
+}
+	
+#paginainicial {
+	font-size:20px;
+}
+		
+body {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	background:buttonshadow;
+}
