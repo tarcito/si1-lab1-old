@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+		<meta name="keywords" content=" sistemas de informação, cadastro, alunos"/>
+		<meta name="description" content="Cadastro de alunos interessados em cursar sistemas de informação"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+		<script src="js/bootstrap.js"></script>
+		<title>SI1 - UFCG - Cadastro</title>
+	</head>
+	<body>
+	
+		<div class="jumbotron">
+  			<div class="container">
+				<h1>Cadastre-se:</h1>
+				
+			</div>
+		</div>
+		
+			<form class="form-signin" action="pagina3.html" method="post" >
+				<div class="form-group">
+					<label id="form">Nome Completo: <input class="form-control" type="text" name="nome" placeholder="Nome" autofocus ></label>
+				</div>
+					<br>
+					
+					<!--OBS: onkeypress não funciona no Firefox-->
+				
+				<div class="form-group">
+					<label id="form">Matricula: <input class="form-control"  type="text" name= "matricula" placeholder="Matricula" 
+					onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;"></label>
+				</div>
+					<br>
+				<div class="form-group">
+					<label id="form">E-Mail: <input class="form-control" type="email" name= "email" placeholder="email@exemplo.com"> </label>
+				</div>
+					<br><br>
+				<input type="submit" value="Cadastrar" class="btn btn-primary">
+			</form>
+
+	</body>
+</html>
