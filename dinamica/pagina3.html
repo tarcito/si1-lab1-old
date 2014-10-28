@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+		<meta name="keywords" content=" sistemas de informação, cadastro, assuntos, alunos"/>
+		<meta name="description" content="Cadastro de assuntos"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<script src="js/bootstrap.js"></script>
+		<title>SI1 - UFCG - Bem Vindo!</title>
+	</head>
+	<body>
+		<div class="jumbotron">
+  			<div class="container">
+				<h1>Cadastro de assuntos</h1>	
+			</div>
+		</div>
+		<h3>Adicione assuntos.</h3>
+
+		<form class="form-signin">
+			<div class="form-group">
+  			<label for="assunto">Novo Assunto: <input type="text" class="form-control" name="assunto" id="assunto"  placeholder="Assunto"  autofocus></label>
+  			</div>
+  			<button id="adicionar" type="button" class="btn btn-primary" name="enviar">Adicionar</button>
+		</form><br>
+			<ol id="list_assuntos">Lista de Assuntos:</ol><br>
+			<ol id="list_aprendidos">Lista de Aprendidos:</ol>
+		<br><br>
+
+		<form action="Index.html">
+			<button type="submit" class="btn btn-primary" href="Index.html">
+  				<span class="glyphicon glyphicon-thumbs-up"></span>Página inicial</button>
+		</form>
+
+		<script src="js/tarcitoscript.js"></script>
+	</body>	
+</html>
